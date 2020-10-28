@@ -13,6 +13,7 @@ apt-get update && apt-get upgrade -y
 apt-get install python -y
 pip install --upgrade pip
 pip install requests
+pip install colorama
 unzip quack.zip
 python -m pip install -r requirements.txt
 rm quack.zip
